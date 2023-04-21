@@ -27,8 +27,6 @@ def get_video(cap:cv2.VideoCapture, frame_rate:int, video_length:float) -> list:
 cap = find_id()
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
-#cap.set(cv2.CAP_PROP_CONVERT_RGB, 1) # For RGB Mode
-#cap.set(cv2.CAP_PROP_CONVERT_RGB, 2) # For RGB Mode
 cap.set(cv2.CAP_PROP_CONVERT_RGB, 2) # For RGB Mode
 
 # Save video_frames
